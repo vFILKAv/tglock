@@ -1,0 +1,9 @@
+/target
+/dist
+/dist-ui
+/node_modules
+/gen/*
+!/gen/android/
+/tools
+*.zip
+.claude/

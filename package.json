@@ -1,0 +1,21 @@
+{
+  "name": "tglock",
+  "private": true,
+  "version": "2.0.0-beta.15",
+  "type": "module",
+  "scripts": {
+    "test:worker": "node --experimental-vm-modules --test worker/tglock-worker.test.js",
+    "dev": "vite --port 1420",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.8.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.8.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.2.6"
+  }
+}
